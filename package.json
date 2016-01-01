@@ -1,7 +1,7 @@
 {
   "name": "clean",
   "version": "5.0.0",
-  "description": "clean",
+  "description": "Utility for type checking, batch validations, and conditions.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec ./test/*.js"
@@ -11,7 +11,10 @@
     "url": "git://github.com/kaelzhang/node-clean.git"
   },
   "keywords": [
-    "clean"
+    "clean",
+    "validator",
+    "setter",
+    "getter"
   ],
   "engines": {
     "node": ">=0.10.0"
@@ -24,5 +27,8 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "skema": "^2.0.0"
   }
 }
