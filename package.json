@@ -29,6 +29,9 @@
     "chai": "*"
   },
   "dependencies": {
-    "skema": "^2.0.0"
+    "async": "^1.5.0",
+    "make-array": "^1.0.1",
+    "skema": "^2.0.0",
+    "wrap-as-async": "^1.2.2"
   }
 }
